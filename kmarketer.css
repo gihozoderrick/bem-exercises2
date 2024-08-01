@@ -1,0 +1,217 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-image{
+    background: url(./romance.jpg);
+}
+.header{
+    @apply grid-cols-2 mt-7 mb-[150px] md:grid;
+}
+.header__logo{
+    @apply font-bold text-2xl ml-10 text-gray-800;
+}
+.header__details{
+    @apply flex text-gray-500 md:space-x-5 flex-col gap-[10px]  text-2xl items-center md:flex-row
+    md:text-base md:font-medium;
+}
+.content__first{
+    @apply text-center space-y-10 mb-[200px];
+}
+.content__first-title{
+    @apply text-4xl text-center font-bold text-gray-800 md:text-6xl;
+}
+.content__first-text{
+    @apply text-lg md:text-2xl text-gray-500;
+}
+.content__first-links{
+    @apply flex flex-col md:flex-row justify-center space-y-5 md:space-y-0 space-x-5;
+}
+.content__first-link1{
+    @apply bg-orange-400 px-5 py-3 rounded-3xl text-gray-100 font-medium;
+}
+.content__first-link2{
+    @apply px-8 py-3 rounded-3xl text-blue-500 border border-blue-500 font-medium;
+}
+.content__second{
+    @apply text-center space-y-7 mb-20;
+}
+.content__second-title{
+    @apply text-4xl font-bold text-gray-800 px-[100px] md:px-5;
+}
+.content__second-text{
+    @apply text-base text-gray-500 px-[60px];
+}
+.services{
+    @apply space-y-7 px-[80px] mb-[200px];
+}
+.services__details{
+    @apply flex flex-col md:flex-row space-y-5 md:space-y-0 justify-evenly;
+}
+.services__details-box{
+    @apply border border-gray-300 w-[320px] h-[200px] p-8;
+}
+.services-profile{
+    @apply flex mb-5;
+}
+.services-profile__pic{
+    @apply h-10 w-10 mr-5;
+}
+.services-profile__name{
+    @apply font-bold text-lg text-gray-800;
+}
+.services-text{
+    @apply text-base text-gray-500;
+}
+.content-third{
+    @apply text-center space-y-7 mb-20;
+}
+.content-third__title1{
+    @apply text-4xl font-bold text-gray-800 hidden md:block;
+}
+.content-third__title2{
+    @apply text-4xl font-bold text-gray-800 md:hidden;
+}
+.content-third__text{
+    @apply text-base text-gray-500 px-[60px];
+}
+.conference{
+    @apply bg-teal-900 max-h-[400px] mt-[100px] mb-[200px];
+}
+.conference__hall{
+    @apply w-[300px] md:w-[800px] mx-auto h-[500px] object-cover;
+}
+.content-fourth{
+    @apply text-center space-y-7 mb-20 px-[50px] md:px-[10px];
+}
+.content-fourth__title{
+    @apply text-4xl font-bold text-gray-800;
+}
+.content-fourth__text{
+    @apply text-base text-gray-500;
+}
+.staff{
+    @apply flex justify-evenly px-14 mb-[200px] flex-col mr-7 space-y-5 md:space-y-0 md:flex-row;
+}
+.staff__member{
+    @apply h-[200px] w-[350px]  border border-gray-300 px-10 py-10;
+}
+.staff__member-text{
+    @apply text-base font-medium text-gray-500 mb-5;
+}
+.staff__member-profile{
+    @apply flex;
+}
+.member-picture{
+    @apply h-10 w-10 rounded-full object-cover object-top mr-[15px];
+}
+
+.member-name{
+    @apply text-orange-500 text-base font-medium;
+}
+.member-role{
+    @apply text-base text-gray-800 font-medium;
+}
+.team{
+    @apply mb-10 text-center space-y-5 md:space-y-0;
+}
+.team__title{
+    @apply text-4xl font-bold text-gray-800 px-[100px] md:px-5;
+}
+.team__text{
+    @apply text-base text-gray-500 px-[60px] md:px-10;
+}
+.admin{
+    @apply flex justify-evenly items-center mb-[90px] flex-col space-y-5 md:space-y-0 md:flex-row;
+}
+.admin__member{
+    @apply w-[300px];
+}
+.admin__member-picture{
+    @apply w-[300px] h-[250px] object-cover object-top mb-8;
+}
+.admin__member-name{
+    @apply text-base text-gray-800 font-bold text-center;
+}
+.admin__member-position{
+    @apply text-base text-gray-500 text-center font-medium;
+}
+.info{
+    @apply h-[800px] px-10 md:px-[10px];
+}
+.info-box{
+    @apply pl-5 md:pl-10 pt-[80px];
+}
+.info-box__header{
+    @apply font-bold text-base text-gray-800 mb-5;
+}
+.info-box__text{
+    @apply text-4xl font-bold text-gray-800 mb-10 pr-10 md:pr-5;
+}
+.info-box__data{
+    @apply space-y-5;
+}
+.info-box__data-first{
+    @apply space-x-0 flex flex-col w-full md:w-[400px] md:flex-row md:space-x-4;
+}
+.data-name{
+    @apply md:w-[200px] h-[50px] rounded-lg p-5 mb-5;
+}
+.data-email{
+    @apply md:w-[200px] h-[50px] rounded-lg p-5;
+}
+.info-box__data-message{
+    @apply h-[100px] bg-gray-100 rounded-lg pl-5 pt-5 w-full md:w-[420px];
+}
+.info-box__submit{
+    @apply bg-orange-400 text-gray-100 text-base font-bold px-8 py-5 md:px-7 rounded-lg mt-10 w-full md:w-[200px];
+}
+.contact{
+    @apply flex flex-col px-11 md:flex-row  md:justify-around mb-10;
+}
+.contact__details{
+    @apply mt-10;
+}
+.contact-title{
+    @apply text-2xl font-bold text-gray-800 mb-[10px];
+}
+.contact-text{
+    @apply text-base text-gray-500;
+}
+.contact__confirm{
+    @apply bg-orange-400 text-gray-100 text-base font-bold px-8 py-5 rounded-lg mt-10;
+}
+.footer{
+    @apply bg-indigo-900 w-full p-[50px];
+}
+.footer{
+    @apply text-xl font-bold text-white;
+}
+.footer__line{
+    @apply bg-gray-500 my-[70px];
+}
+.footer__overview{
+    @apply flex flex-col space-y-5 md:space-y-0 md:flex-row justify-between;
+}
+.overview-title{
+    @apply text-base font-bold text-gray-200 mb-[5px];
+}
+.overview-list{
+    @apply text-base font-medium text-gray-400 space-y-[5px]
+}
+.overview-email{
+    @apply w-[200px] py-[10px] pl-[10px] rounded-lg rounded-r-none;
+}
+.overview-subscribe{
+    @apply bg-orange-400 text-gray-100 font-medium text-base py-[10px] px-5 rounded-lg rounded-l-none;
+}
+.overview-text{
+    @apply text-sm text-gray-400 font-medium;
+}
+.closure{
+    @apply bg-teal-800 h-[100px];
+}
+.closure{
+    @apply pt-[30px] text-center md:text-left px-[100px] md:pl-[100px] text-base font-medium text-gray-200;
+}
