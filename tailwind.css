@@ -1431,6 +1431,9 @@ video {
   height: 100px;
   --tw-bg-opacity: 1;
   background-color: rgb(17 94 89 / var(--tw-bg-opacity));
+}
+
+.closure__text {
   padding-left: 100px;
   padding-right: 100px;
   padding-top: 30px;
@@ -1443,7 +1446,7 @@ video {
 }
 
 @media (min-width: 768px) {
-  .closure {
+  .closure__text {
     padding-left: 100px;
     text-align: left;
   }
